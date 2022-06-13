@@ -47,14 +47,14 @@ body {
 }
 
 #pnj {
-    background-image: url("/img/1.png");
+    background-image: url("./img/1.png");
     width: 160px;
     height: 160px;
     margin: 20px;
 }
 
 #pnj:hover {
-    background-image: url("/img/2.png");
+    background-image: url("./img/2.png");
     transition: 0.5s;
 }
 
