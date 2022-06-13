@@ -30,25 +30,20 @@ body {
     padding: 61px;
 }
 
-.card-user{
-    transition: 1s;
-}
-
 .card-user:hover h2{
-    -moz-transform: scale(1.1);
-	-webkit-transform: scale(1.1);
-	transform: scale(1.1);
     color: white;
+    transition: 0.5s;
 }
 
-.card-user:hover{
-    -moz-transform: scale(1.1);
-	-webkit-transform: scale(1.1);
-	transform: scale(1.1);
+.card-user:hover .img_item {
+    border: solid 1.5px white;
+    transition: 0.5s;
 }
 
 .img_item {
     margin: 20px;
+    width: 160px;
+    height: 160px;
 }
 
 #pnj {
@@ -60,6 +55,7 @@ body {
 
 #pnj:hover {
     background-image: url("/img/2.png");
+    transition: 0.5s;
 }
 
 .name-card {
@@ -68,10 +64,16 @@ body {
     font-size: 14px;
 }
 
+#name-card {
+    color: #9C9C9C;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
 ul, li {
     list-style: none;
 }
-
 
 input{
     background-color: #131212;
@@ -88,4 +90,5 @@ input:hover{
     color: #131212;
     cursor: pointer;
     transition: 0.0.2s;
+    transition: 0.5s;
 }
